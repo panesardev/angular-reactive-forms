@@ -1,0 +1,52 @@
+input, button {
+	background-color: white;
+	box-shadow: 0 0 10px rgb(226, 230, 233);
+	border: .1rem solid transparent;
+	border-radius: 5px;
+	padding: 3px 6px;
+	font-size: 1rem;
+}
+input.ng-touched.ng-invalid {
+	border: .1rem solid rgb(240, 56, 56);
+}
+main {
+	margin-left: 250px;
+}
+section {
+	font-size: 1rem;
+}
+.input-container {
+	margin-top: 20px;
+}
+button {
+	margin-right: 20px;
+	padding: 5px 10px;
+}
+button:hover {
+	cursor: pointer;
+	transition: .25s all ease;
+	transform: scale(1.05);
+}
+button[type="submit"] {
+	color: rgb(42, 201, 42);
+}
+button[type="reset"] {
+	color: crimson;
+}
+button[type="submit"]:hover {
+	background-color: rgb(42, 201, 42);
+	color: white;
+}
+button[type="reset"]:hover {
+	background-color: crimson;
+	color: white;
+}
+button:disabled {
+	color: rgb(208, 216, 224);
+	background-color: transparent;
+}
+button[disabled]:hover {
+	background-color: transparent;
+	color: rgb(208, 216, 224);
+	transform: scale(1);
+}
