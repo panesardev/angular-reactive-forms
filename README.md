@@ -1,5 +1,5 @@
 # Reactive Forms Example
-[demo](https://reactive-forms-demp.web.app)
+see working demo [here](https://reactive-forms-demo.web.app)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
 
